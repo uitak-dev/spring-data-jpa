@@ -1,4 +1,4 @@
-package study.querdsl;
+package study.querydsl;
 
 import jakarta.persistence.EntityManager;
 import org.junit.jupiter.api.Test;
@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @SpringBootTest
 @Transactional
-class QuerdslApplicationTests {
+class QuerydslApplicationTests {
 
 	@Autowired EntityManager em;
 
